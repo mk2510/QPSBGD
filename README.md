@@ -21,7 +21,7 @@ To run the code without a quantum annealer one can use [D-Wave neal](https://doc
 ## Getting Started
 - The repository can be cloned with <br/>
 `git clone https://github.com/mk2510/QPSBGD/` <br/>
--We recommend the user to set up a conda environment with
+- We recommend the user to set up a conda environment with
 ```
 conda create --name QPSBGD --file requirements.txt
 ```
@@ -31,10 +31,11 @@ and following the steps from [https://docs.ocean.dwavesys.com/en/stable/overview
 get access to the solvers from D-Wave one has to create an account for D-Wave Leap ([https://cloud.dwavesys.com/leap/login/?next=/leap/](https://cloud.dwavesys.com/leap/login/?next=/leap/)) and
 can then use the API Token ([https://docs.ocean.dwavesys.com/en/stable/overview/sapi.html](https://docs.ocean.dwavesys.com/en/stable/overview/sapi.html)). We tested the code for dwave-ocean-sdk versions 4.2 and 6.3. 
 
-- Installing [Gurobi](https://www.gurobi.com/) is another prerequisite. Please refer to the homepage to aquire a license.
+- Installing [Gurobi](https://www.gurobi.com/) is another prerequisite. Please refer to the homepage to acquire a license.
 
 
 ### 10 Layer MLP - Adult Dataset
+
 To reproduce the experiments of the paper it is required to download the datasets:
 
 
